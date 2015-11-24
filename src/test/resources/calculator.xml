@@ -1,0 +1,32 @@
+<suite name="calculator" verbose="1">
+    <test name="Summa and Subtraction tests">
+        <classes>
+            <class name="epam.com.java.unittests.SumAndSubTests"/>
+        </classes>
+    </test>
+
+    <test name="Multiplication and Division tests">
+        <classes>
+            <class name="epam.com.java.unittests.MultAndDivTests"/>
+        </classes>
+    </test>
+
+    <test name="Power and Dquare tests">
+        <classes>
+            <class name="epam.com.java.unittests.PowAndSqrtTests"/>
+        </classes>
+    </test>
+
+    <test name="Trigonometry tests">
+        <classes>
+            <class name="epam.com.java.unittests.SinAndCosTests"/>
+            <class name="epam.com.java.unittests.TgAnCtgTests"/>
+        </classes>
+    </test>
+
+    <test name="Positive and Negative tests">
+        <classes>
+            <class name="epam.com.java.unittests.PositiveNegativeFactoryTest"/>
+        </classes>
+    </test>
+</suite>
